@@ -1,27 +1,43 @@
 /* slider1.css */
-/* only slide 0’s custom look */
-.slider1 .slider1-title {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  font-size: 2rem;
-  color: #fff;
-}
-
-.slider1 .slider1-schedule {
-  position: absolute;
-  top: 50%;
-  left: 5%;
-}
-
-.slider1 .slider1-learn {
-  position: absolute;
-  top: 50%;
-  right: 5%;
-}
-
 .slider1 .slide--first {
   background-image: url('../img1.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.slider1 .slider1-title {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  width: 80%;
+  max-width: 90%;
+}
+
+.slider1 .slider1-schedule,
+.slider1 .slider1-learn {
+  position: absolute;
+  top: 75%;
+  padding: 0.75rem 1.5rem;
+  background: rgba(218, 41, 28, 0.8);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.slider1 .slider1-schedule {
+  left: 15%;
+}
+
+.slider1 .slider1-learn {
+  right: 15%;
 }

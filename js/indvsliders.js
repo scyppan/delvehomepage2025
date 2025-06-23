@@ -22,7 +22,7 @@ function slider1() {
   const learn = document.createElement('a');
   learn.href = '#philosophy';
   learn.className = 'slider1-learn btn-secondary';
-  learn.textContent = 'Learn Our Philosophy';
+  learn.textContent = 'Our Philosophy';
   slide.append(learn);
 
   slidesContainer.append(slide);
