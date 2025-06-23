@@ -1,22 +1,29 @@
 // sliderbehavior.js
-// Contains slide transition logic
 let currentIndex = 0;
 
-function showSlide(slidesContainer, dotsContainer, total) {
+function showSlide() {
+  const total = images.length;
   if (currentIndex < 0) currentIndex = total - 1;
   if (currentIndex >= total) currentIndex = 0;
-  slidesContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
-  dotsContainer.querySelectorAll('.dot').forEach((dot, i) => {
-    dot.classList.toggle('active', i === currentIndex);
+
+  // remove old index class
+  slidesContainer.classList.forEach(cls => {
+    if (cls.startsWith('show-')) slidesContainer.classList.remove(cls);
   });
+  // add new index class
+  slidesContainer.classList.add(`show-${currentIndex}`);
+
+  dotsContainer.querySelectorAll('.dot').forEach((dot, i) =>
+    dot.classList.toggle('active', i === currentIndex)
+  );
 }
 
-function nextSlide(slidesContainer, dotsContainer, total) {
+function nextSlide() {
   currentIndex++;
-  showSlide(slidesContainer, dotsContainer, total);
+  showSlide();
 }
 
-function prevSlide(slidesContainer, dotsContainer, total) {
+function prevSlide() {
   currentIndex--;
-  showSlide(slidesContainer, dotsContainer, total);
+  showSlide();
 }

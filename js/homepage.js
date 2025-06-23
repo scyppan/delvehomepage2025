@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  buildSliderSection();
+  buildslidersection();
   slider1();
 });
