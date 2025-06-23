@@ -1,0 +1,30 @@
+.slider1 .slide { position: relative; }
+
+/* title in the upper-left */
+.slider1-title {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;        /* or whatever contrast you need */
+  z-index: 5;
+}
+
+/* “Schedule Today” over left shoulder */
+.slider1-schedule {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+/* “Learn Our Philosophy” over right shoulder */
+.slider1-learn {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
