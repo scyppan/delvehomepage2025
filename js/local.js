@@ -3,4 +3,4 @@ document.addEventListener('DOMContentLoaded', () => {
   buildSlides();
   slider1();
   showSlide();
-})
+});
