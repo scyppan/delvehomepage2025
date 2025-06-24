@@ -1,0 +1,16 @@
+/* slider2-480.css */
+@media (min-width: 480px) {
+  .slider2-book,
+  .slider2-team {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .slider2-book {
+    left: 7%;
+  }
+
+  .slider2-team {
+    right: 7%;
+  }
+}

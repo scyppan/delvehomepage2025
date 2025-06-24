@@ -1,0 +1,8 @@
+/* slider2-1024.css */
+@media (min-width: 1024px) {
+  .slider2-book,
+  .slider2-team {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+  }
+}
