@@ -63,6 +63,8 @@
 }
 
 .slider7-schedule:hover {
-  background: rgba(218, 41, 28, 1);
-  transform: translateX(-50%) scale(1.01);
+  background: #fff;
+  transform: scale(1.05);
+  font-weight: bolder;
+  text-decoration: none;
 }

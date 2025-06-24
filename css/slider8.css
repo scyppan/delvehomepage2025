@@ -33,8 +33,10 @@
 }
 
 .slider8-consult:hover {
-  background: rgba(218, 41, 28, 1);
+  background: #fff;
   transform: scale(1.05);
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 /* Group list lower right */

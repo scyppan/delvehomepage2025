@@ -13,8 +13,10 @@
   transition: background 0.3s ease, transform 0.3s ease;
 }
 .slider6-availability:hover {
-  background: rgba(218, 41, 28, 1);
+  background: #fff;
   transform: scale(1.05);
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 /* title */
