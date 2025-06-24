@@ -9,11 +9,11 @@ const cssfiles = [
   'slider1/slider1-1920.css',
   // slider2 base + breakpoints:
   'slider2.css',
-  'slider2-480.css',
-  'slider2-768.css',
-  'slider2-1024.css',
-  'slider2-1440.css',
-  'slider2-1920.css',
+  'slider2/slider2-480.css',
+  'slider2/slider2-768.css',
+  'slider2/slider2-1024.css',
+  'slider2/slider2-1440.css',
+  'slider2/slider2-1920.css',
   // the rest of your sliders
   'slider3.css',
   'slider4.css',
