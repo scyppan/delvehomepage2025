@@ -1,0 +1,21 @@
+/* Large phones & small tablets */
+@media (min-width: 480px) {
+  .slider1-title {
+    font-size: 2.25rem !important;
+  }
+  .slider1-schedule,
+  .slider1-learn {
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    transform: translateY(-40%);
+  }
+  .slider1-schedule {
+    left: 7%;
+  }
+  .slider1-learn {
+    right: 7%;
+  }
+  .nav {
+    font-size: 2.25rem;
+  }
+}

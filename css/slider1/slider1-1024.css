@@ -1,0 +1,6 @@
+/* Small laptops */
+@media (min-width: 1024px) {
+  .slider1-title {
+    font-size: 3rem !important;
+  }
+}

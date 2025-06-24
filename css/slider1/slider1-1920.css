@@ -1,0 +1,11 @@
+/* Large / 4K screens */
+@media (min-width: 1920px) {
+  #slider {
+    max-width: 1600px;
+  }
+  .slider1-schedule,
+  .slider1-learn {
+    font-size: 2.25rem;
+    padding: 1.25rem 1.75rem;
+  }
+}

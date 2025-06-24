@@ -1,0 +1,18 @@
+/* Desktop monitors */
+@media (min-width: 1440px) {
+  .slider1-title {
+    font-size: 4rem !important;
+  }
+  .slider1-schedule,
+  .slider1-learn {
+    font-size: 2.25rem;
+    padding: 1.25rem 1.75rem;
+    transform: translateY(-25%);
+  }
+  .slider1-schedule {
+    left: 10%;
+  }
+  .slider1-learn {
+    right: 10%;
+  }
+}

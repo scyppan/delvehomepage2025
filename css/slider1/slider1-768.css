@@ -1,0 +1,18 @@
+/* Tablets & small desktops */
+@media (min-width: 768px) {
+  .slider1-title {
+    font-size: 3rem !important;
+  }
+  .slider1-schedule,
+  .slider1-learn {
+    font-size: 1.75rem;
+    padding: 1.25rem 1.75rem;
+    transform: translateY(-30%);
+  }
+  .slider1-schedule {
+    left: 7%;
+  }
+  .slider1-learn {
+    right: 7%;
+  }
+}
