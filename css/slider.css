@@ -118,11 +118,13 @@ body {
   color: var(--chi-red);
 }
 
-#slide-1 { background-image: url('../img1.jpg'); }
-#slide-2 { background-image: url('../img2.jpg'); }
-#slide-3 { background-image: url('../img3.jpg'); }
-#slide-4 { background-image: url('../img4.jpg'); }
-#slide-5 { background-image: url('../img5.jpg'); }
-#slide-6 { background-image: url('../img6.jpg'); }
-#slide-7 { background-image: url('../img7.jpg'); }
-#slide-8 { background-image: url('../img8.jpg'); }
+#slide-1 { background-image: url('../img/img1.jpg'); }
+#slide-2 { background-image: url('../img/img2.jpg'); }
+#slide-3 { background-image: url('../img/img3.jpg'); }
+#slide-4 { background-image: url('../img/img4.jpg'); }
+#slide-5 { background-image: url('../img/img5.jpg'); }
+#slide-6 { background-image: url('../img/img6.jpg'); }
+#slide-7 { background-image: url('../img/img7.jpg'); }
+#slide-8 { background-image: url('../img/img8.jpg'); }
+
+
