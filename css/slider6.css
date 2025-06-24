@@ -1,0 +1,33 @@
+/* slider6.css */
+/* button */
+.slider6-availability {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  padding: 0.75rem 1.5rem;
+  background: rgba(218, 41, 28, 0.8);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.slider6-availability:hover {
+  background: rgba(218, 41, 28, 1);
+  transform: scale(1.05);
+}
+
+/* title */
+.slider6-title {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  max-width: 40%;
+}
