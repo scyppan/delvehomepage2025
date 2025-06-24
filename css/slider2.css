@@ -34,5 +34,8 @@
 .slider2-book:hover,
 .slider2-team:hover {
   background: var(--chi-blue);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
   transform: scale(1.1);
 }

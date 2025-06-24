@@ -30,11 +30,13 @@
   bottom: 10%;
   background: rgba(255, 255, 255, 0.8);
   color: #333;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   border-radius: 0.25rem;
-  font-size: 1rem;
-  max-width: 35%;
-  line-height: 1.4;
+  border-radius: 7px;
+  border: 1px solid #e8b385;
+  padding: 30px;
+  color: #453c3c;
+  font-weight: bolder;
 }
 
 .slider7-lower-left {
@@ -47,16 +49,16 @@
 
 .slider7-schedule {
   position: absolute;
-  bottom: 5%;
-  left: 50%;
+  top: 5%;
+  left: 10%;
   transform: translateX(-50%);
-  padding: 0.75rem 1.5rem;
+  padding: 1.5rem 1.75rem;
   background: rgba(218, 41, 28, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 0.25rem;
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: bold;
+  font-size: 1.75rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 

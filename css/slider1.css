@@ -39,6 +39,9 @@
 
 .slider1-schedule:hover,
 .slider1-learn:hover {
-  background: rgba(218, 41, 28, 1);
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background: rgb(202, 42, 31);
   transform: scale(1.1);
 }

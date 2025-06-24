@@ -3,7 +3,7 @@
 /* Header */
 .slider8-header {
   position: absolute;
-  top: 5%;
+  top: 3%;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.6);
@@ -20,15 +20,15 @@
 /* Consult button lower left */
 .slider8-consult {
   position: absolute;
-  bottom: 10%;
-  left: 3%;
-  padding: 0.75rem 1.5rem;
+  top: 25%;
+  left: 10%;
+  padding: 1.25rem 1.5rem;
   background: rgba(218, 41, 28, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 0.25rem;
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -40,12 +40,16 @@
 /* Group list lower right */
 .slider8-list-container {
   position: absolute;
-  bottom: 10%;
-  right: 3%;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 0.75rem;
+  top: 15%;
+  right: 4%;
+  padding: 0.5rem;
   border-radius: 0.25rem;
-  max-width: 30%;
+  background-color: rgba(243, 225, 195, 0.75);
+  border-radius: 7px;
+  border: 1px solid #e8b385;
+  padding: 30px;
+  color: #fff;
+  font-weight: bolder;
 }
 
 .slider8-list {

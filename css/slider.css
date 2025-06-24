@@ -19,8 +19,8 @@ body {
   position: relative;
   overflow: hidden;
   width: 95%;
-  max-width: 1920px;
-  margin-top: 23px;
+  max-width: 1200px;    /* <-- cap it here */
+  margin: 23px auto;
   line-height: 1 !important;
 }
 

@@ -5,12 +5,12 @@
   position: absolute;
   top: 3%;
   padding: 0.75rem 1.5rem;
-  background: rgba(218, 41, 28, 0.8);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 0.25rem;
-  font-weight: 700;
-  font-size: 1rem;
+  background: rgb(255 255 255);
+  color: #595050;
+  border-radius: 13px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 1.25rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -23,8 +23,10 @@
 }
 
 .slider5-upper-btn:hover {
-  background: rgba(218, 41, 28, 1);
+  background: var(--chi-blue);
   transform: scale(1.05);
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* Bottom “Learn” links */
@@ -32,12 +34,12 @@
   position: absolute;
   bottom: 15%;
   padding: 0.75rem 1.5rem;
-  background: rgba(218, 41, 28, 0.8);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 0.25rem;
-  font-weight: 700;
-  font-size: 1rem;
+  background: rgb(255 255 255);
+  color: #595050;
+  border-radius: 13px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 1.25rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -50,8 +52,10 @@
 }
 
 .slider5-link:hover {
-  background: rgba(218, 41, 28, 1);
+  background: var(--chi-blue);
   transform: scale(1.05);
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* Bottom title */
