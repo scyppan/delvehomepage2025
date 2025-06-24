@@ -13,7 +13,6 @@ const cssfiles = [
 
 const jsfiles = [
     'buildslider.js',
-    'homepage.js',
     'indvsliders.js',
     'sliderbehavior.js'
 ];
