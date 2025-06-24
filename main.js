@@ -12,6 +12,7 @@ const cssfiles = [
 ];
 
 const jsfiles = [
+    'wordpress.js',
     'buildslider.js',
     'indvsliders.js',
     'sliderbehavior.js'
@@ -56,6 +57,7 @@ function loadAssets(baseUrl, version) {
 async function initapp(baseUrl, version) {
     await loadAssets(baseUrl, version);
     console.log('all assets loaded');
+    buildsection();
     buildslidersection();
     buildSlides();
     slider1();
