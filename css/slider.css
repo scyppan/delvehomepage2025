@@ -20,14 +20,15 @@ body {
   overflow: hidden;
   width: 95%;
   max-width: 1920px;
-  margin: 0 auto;
   margin-top: 23px;
+  line-height: 1 !important;
 }
 
 #slidesContainer {
-  position: relative;
   width: 100%;
   aspect-ratio: 16/9;
+  height: auto;         /* allow max-height to apply */
+  max-height: 75vh;     /* 40% of the viewport height */
   overflow: hidden;
 }
 
