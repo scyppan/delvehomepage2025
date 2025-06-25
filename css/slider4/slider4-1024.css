@@ -1,0 +1,10 @@
+/* slider4-1024.css */
+@media (min-width: 1024px) {
+  .slider4-btn,
+  .slider4-podcast,
+  .slider4-blog,
+  .slider4-journey {
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+  }
+}
