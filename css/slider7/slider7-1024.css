@@ -1,26 +1,17 @@
 /* slider7-1024.css */
 @media (min-width: 1024px) {
-  .slider7-main-1 {
-    font-size: 1.25rem !important;
-    bottom: 23%;
-  }
+  .slider7-main-1,
   .slider7-main-2 {
     font-size: 1.25rem !important;
-    bottom: 10%;
+    padding: 1.25rem 1.5rem;
   }
   .slider7-lower-left,
   .slider7-lower-right {
     font-size: 1rem;
-    padding: 1rem;
-    bottom: 4%;
-    left: 7%;
-    right: 7%;
+    padding: 1.25rem 1.5rem;
   }
   .slider7-schedule {
-    font-size: 1.25rem;
-    padding: 1rem 2rem;
-    top: 7%;
-    left: 12%;
-    transform: translateX(-50%);
+    font-size: 3rem;
+    padding: 1.5rem 2rem;
   }
 }

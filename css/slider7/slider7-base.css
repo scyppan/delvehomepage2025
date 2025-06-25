@@ -6,45 +6,47 @@
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem .5rem;
   border-radius: 0.25rem;
   text-align: center;
-  font-weight: 600;
-  width: 80%;
-  max-width: 90%;
+  font-weight: bolder;
+  width: 85%;
+  font-size: .5rem !important;
 }
 
 .slider7-main-1 {
-  bottom: 32%;
-  font-size: 2rem;
+  bottom: 25%;
+  font-size: .5rem;
 }
 
 .slider7-main-2 {
-  bottom: 25%;
-  font-size: 1.5rem;
+  bottom: 14%;
+  font-size: .5rem;
 }
 
 .slider7-lower-left,
 .slider7-lower-right {
   position: absolute;
-  bottom: 10%;
+  
   background: rgba(255, 255, 255, 0.8);
   color: #333;
   padding: 0.5rem;
   border-radius: 0.25rem;
   border-radius: 7px;
   border: 1px solid #e8b385;
-  padding: 30px;
   color: #453c3c;
   font-weight: bolder;
+  font-size: .4rem;
 }
 
 .slider7-lower-left {
-  left: 5%;
+  left: 1%;
+bottom: 2%;
 }
 
 .slider7-lower-right {
-  right: 5%;
+  right: 1%;
+  bottom: 1%;
 }
 
 .slider7-schedule {
