@@ -3,4 +3,20 @@
   #slider {
     max-width: 1600px;
   }
+  .slider3-header {
+    font-size: 1.75rem !important;
+  }
+  .slider3-subheader {
+    font-size: 1.5rem !important;
+  }
+  .slider3-list-container {
+    width: 15%;
+  }
+  .slider3-list {
+    font-size: 1.125rem !important;
+  }
+  .slider3-book {
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
+  }
 }

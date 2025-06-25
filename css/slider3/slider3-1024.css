@@ -1,12 +1,19 @@
 /* slider3-1024.css */
 @media (min-width: 1024px) {
   .slider3-header {
-    font-size: 2.5rem;
+    font-size: 1.25rem !important;
   }
   .slider3-subheader {
-    font-size: 1.75rem;
+    font-size: 1rem !important;
+  }
+  .slider3-list-container {
+    width: 20%;
+  }
+  .slider3-list {
+    font-size: 0.875rem !important;
   }
   .slider3-book {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
   }
 }
