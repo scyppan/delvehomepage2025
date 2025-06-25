@@ -16,22 +16,22 @@
   bottom: 17%;
   width: 80%;
   max-width: 90%;
-  font-size: .25rem !important;
+  font-size: .5rem !important;
 }
 
 .slider3-subheader {
   bottom: 3%;
   width: 80%;
   max-width: 90%;
-  font-size: .25rem !important;
+  font-size: .5rem !important;
 }
 
 .slider3-list-container {
   position: absolute;
   top: 5%;
   left: 7%;
-  width: 25%;
-  padding-left: .75rem;
+  width: 27%;
+  padding-left: 1rem;
   border-radius: 7px;
   background-color: rgb(92 71 54);
   border: 1px solid #e8b385;
@@ -42,9 +42,9 @@
 
 .slider3-list {
   margin: 0;
-  padding: 1rem;
+  padding: .75rem;
   list-style: disc;
-  font-size: .25rem !important;
+  font-size: .5rem !important;
 }
 
 .slider3-list li {
@@ -64,7 +64,7 @@
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   font-weight: bolder;
-  font-size: .5rem;
+  font-size: .75rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 .slider3-book:hover {
