@@ -1,0 +1,17 @@
+/* slider7-1440.css */
+@media (min-width: 1440px) {
+  .slider7-main-1,
+  .slider7-main-2 {
+    font-size: 1.5rem !important;
+    padding: 1.5rem 1.75rem;
+  }
+  .slider7-lower-left,
+  .slider7-lower-right {
+    font-size: 1.25rem;
+    padding: 1.5rem 1.75rem;
+  }
+  .slider7-schedule {
+    font-size: 3.5rem;
+    padding: 1.75rem 2.25rem;
+  }
+}
