@@ -1,0 +1,29 @@
+/* slider5-768.css */
+@media (min-width: 768px) {
+  .slider5-upper-btn,
+  .slider5-link {
+    font-size: 0.75rem;
+    padding: 0.75rem 1.25rem;
+  }
+  .slider5-upper-left {
+    left: 3%;
+    top: 5%;
+  }
+  .slider5-upper-right {
+    right: 3%;
+    top: 5%;
+  }
+  .slider5-lower-left {
+    left: 5%;
+    bottom: 12%;
+  }
+  .slider5-lower-right {
+    right: 5%;
+    bottom: 12%;
+  }
+  .slider5-header {
+    font-size: 1.25rem !important;
+    padding: 1rem 1.5rem;
+    bottom: 5%;
+  }
+}

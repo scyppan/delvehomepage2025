@@ -1,0 +1,29 @@
+/* slider5-480.css */
+@media (min-width: 480px) {
+  .slider5-upper-btn,
+  .slider5-link {
+    font-size: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .slider5-upper-left {
+    left: 2%;
+    top: 4%;
+  }
+  .slider5-upper-right {
+    right: 2%;
+    top: 4%;
+  }
+  .slider5-lower-left {
+    left: 3%;
+    bottom: 14%;
+  }
+  .slider5-lower-right {
+    right: 3%;
+    bottom: 14%;
+  }
+  .slider5-header {
+    font-size: 1rem !important;
+    padding: 0.75rem 1.25rem;
+    bottom: 6%;
+  }
+}

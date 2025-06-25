@@ -1,0 +1,29 @@
+/* slider5-1440.css */
+@media (min-width: 1440px) {
+  .slider5-upper-btn,
+  .slider5-link {
+    font-size: 1.25rem;
+    padding: 1.25rem 1.75rem;
+  }
+  .slider5-upper-left {
+    left: 5%;
+    top: 6%;
+  }
+  .slider5-upper-right {
+    right: 5%;
+    top: 6%;
+  }
+  .slider5-lower-left {
+    left: 6%;
+    bottom: 8%;
+  }
+  .slider5-lower-right {
+    right: 6%;
+    bottom: 8%;
+  }
+  .slider5-header {
+    font-size: 1.75rem !important;
+    padding: 1.5rem 2rem;
+    bottom: 5%;
+  }
+}
