@@ -8,14 +8,14 @@
 .slider2-team {
   position: absolute;
   /* make the buttons a bit wider */
-  padding: 1.25rem 3rem;
+  padding: .5rem .75rem;
   background: rgba(0, 161, 222, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: .5rem;
   transition: background 0.3s ease, transform 0.3s ease;
   z-index: 2;
 }
@@ -23,12 +23,12 @@
 /* move them higher (15% down) and wider apart (5% from edges) */
 .slider2-book {
   top: 15%;
-  left: 5%;
+  left: 3%;
 }
 
 .slider2-team {
   top: 15%;
-  right: 5%;
+  right: 3%;
 }
 
 .slider2-book:hover,
