@@ -25,8 +25,15 @@ const cssfiles = [
   'slider3/slider3-1440.css',
   'slider3/slider3-1920.css',
 
+  // slider4 base + breakpoints:
+  'slider4/slider4-base.css',
+  'slider4/slider4-480.css',
+  'slider4/slider4-768.css',
+  'slider4/slider4-1024.css',
+  'slider4/slider4-1440.css',
+  'slider4/slider4-1920.css',
+
   // the rest of your sliders
-  'slider4.css',
   'slider5.css',
   'slider6.css',
   'slider7.css',
@@ -34,6 +41,7 @@ const cssfiles = [
 
   'wordpress.css'
 ];
+
 
 
 const jsfiles = [
