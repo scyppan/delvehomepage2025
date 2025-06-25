@@ -1,17 +1,20 @@
-/* slider7-1440.css */
 @media (min-width: 1440px) {
-  .slider7-main-1,
-  .slider7-main-2 {
-    font-size: 1.5rem !important;
-    padding: 1.5rem 1.75rem;
+  .slider8-header {
+    font-size: 3rem !important;
+    padding: 1.75rem 3.5rem;
   }
-  .slider7-lower-left,
-  .slider7-lower-right {
-    font-size: 1.25rem;
-    padding: 1.5rem 1.75rem;
+
+  .slider8-consult {
+    font-size: 2.5rem;
+    padding: 1.25rem 1.75rem;
+    top: 31%;
+    left: 6%;
   }
-  .slider7-schedule {
-    font-size: 3.5rem;
-    padding: 1.75rem 2.25rem;
+  .slider8-list-container {
+    top: 23%;
+  }
+  .slider8-list {
+    font-size: 2.25rem;
+    padding: 1.25rem 1.75rem;
   }
 }

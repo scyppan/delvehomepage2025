@@ -10,7 +10,7 @@
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   font-weight: 700;
-  font-size: .25rem;
+  font-size: .325rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -35,7 +35,7 @@ font-size: .5rem;
 /* hover state */
 .slider4-btn:hover {
   background: #fff;
-  transform: scale(1.05);
+  transform: scale(1.02);
   font-weight: bolder;
   text-decoration: none;
 }

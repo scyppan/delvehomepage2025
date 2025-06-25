@@ -10,7 +10,7 @@
   border-radius: 13px;
   border: 1px solid black;
   font-weight: bold;
-  font-size: .5rem;
+  font-size: .75rem;
 
   transition: background 0.3s ease, transform 0.3s ease;
 }

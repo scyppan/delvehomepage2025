@@ -10,7 +10,7 @@
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 0.25rem;
-  font-size: 1rem !important;
+  font-size: .875rem !important;
   font-weight: bolder;
   text-align: center;
   width: 80%;
@@ -20,7 +20,7 @@
 /* Consult button lower left */
 .slider8-consult {
   position: absolute;
-  top: 45%;
+  top: 35%;
   left: 10%;
   padding: .25rem .5rem;
   background: rgba(218, 41, 28, 0.8);
@@ -43,24 +43,29 @@
 .slider8-list-container {
   position: absolute;
   top: 32%;
-  right: 10%;
+  right: 8%;
   border-radius: 0.25rem;
   background-color: rgba(243, 225, 195, 0.75);
   border-radius: 7px;
   border: 1px solid #e8b385;
   color: #fff;
   font-weight: bolder;
-  padding: .25rem;
+  padding: .25rem !important;
   
 }
 
 .slider8-list {
-  list-style: disc;
-  padding-left: .25rem;
+  padding: .25rem .5rem;
   color: #333;
-  font-size: .5rem;
+  font-size: .575rem;
+  margin: 0rem !important;
 }
 
 .slider8-list li {
-  margin-bottom: 0.5rem;
+  list-style: none;
+  line-height: 1.55;
+}
+
+.slider8-list li:last-child {
+  margin-bottom: 0;
 }

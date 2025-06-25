@@ -156,7 +156,7 @@ function slider5() {
   slide.innerHTML = ''
 
   const ulBtn = document.createElement('a')
-  ulBtn.href = 'https://delvepsych.com/couples-therapy/'
+  ulBtn.href = 'https://delvepsych.com/team/'
   ulBtn.target = '_blank'
   ulBtn.rel = 'noopener noreferrer'
   ulBtn.className = 'slider5-upper-btn slider5-upper-left'
