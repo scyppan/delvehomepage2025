@@ -63,7 +63,7 @@ function slider2() {
   bookBtn.target = '_blank'
   bookBtn.rel = 'noopener noreferrer'
   bookBtn.className = 'slider2-book btn-primary'
-  bookBtn.textContent = 'Book a consultation!'
+  bookBtn.textContent = 'Book a consultation'
   slide.append(bookBtn)
 
   // Meet our team button (blue)
@@ -117,7 +117,7 @@ function slider3() {
   bookBtn.target = '_blank'
   bookBtn.rel = 'noopener noreferrer'
   bookBtn.className = 'slider3-book btn-primary'
-  bookBtn.textContent = 'Book now!'
+  bookBtn.textContent = 'Book now'
   slide.append(bookBtn)
 }
 

@@ -3,4 +3,11 @@
   #slider {
     max-width: 1600px;
   }
+
+  .slider4-btn,
+  .slider4-podcast,
+  .slider4-blog,
+  .slider4-journey {
+   margin-left: 5%;
+  }
 }
