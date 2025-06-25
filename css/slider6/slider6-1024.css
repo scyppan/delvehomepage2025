@@ -1,0 +1,11 @@
+/* slider6-1024.css */
+@media (min-width: 1024px) {
+  .slider6-availability {
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+  }
+  .slider6-title {
+    font-size: 1.25rem !important;
+    padding: 1.5rem 2.5rem;
+  }
+}

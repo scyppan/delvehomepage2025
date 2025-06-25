@@ -1,0 +1,14 @@
+/* slider6-1920.css */
+@media (min-width: 1920px) {
+  #slider {
+    max-width: 1600px;
+  }
+  .slider6-availability {
+    font-size: 1.75rem;
+    padding: 1.5rem 2rem;
+  }
+  .slider6-title {
+    font-size: 1.75rem !important;
+    padding: 2rem 3.5rem;
+  }
+}
