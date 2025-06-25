@@ -4,19 +4,25 @@
     max-width: 1600px;
   }
   .slider3-header {
-    font-size: 1.75rem !important;
+    font-size: 4.5rem !important;
+    bottom: 12%;
   }
   .slider3-subheader {
-    font-size: 1.5rem !important;
+    font-size: 3.5rem !important;
+    bottom: 6%;
   }
   .slider3-list-container {
-    width: 15%;
+    width: 27%;
+    left: 5%;
+    top: 8%;
+    padding: 2rem;
   }
-  .slider3-list {
-    font-size: 1.125rem !important;
+  .slider3-list li {
+    font-size: 2rem !important;
+    margin-bottom: 2rem;
   }
   .slider3-book {
-    font-size: 2rem;
-    padding: 1.5rem 2rem;
+    font-size: 2.5rem;
+    padding: 2rem 5rem;
   }
 }
