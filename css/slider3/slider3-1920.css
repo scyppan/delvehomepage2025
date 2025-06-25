@@ -1,0 +1,6 @@
+/* slider3-1920.css */
+@media (min-width: 1920px) {
+  #slider {
+    max-width: 1600px;
+  }
+}

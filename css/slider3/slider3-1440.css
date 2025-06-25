@@ -1,0 +1,16 @@
+/* slider3-1440.css */
+@media (min-width: 1440px) {
+  .slider3-header {
+    font-size: 2.75rem;
+  }
+  .slider3-subheader {
+    font-size: 2rem;
+  }
+  .slider3-list-container {
+    width: 15%;
+  }
+  .slider3-book {
+    font-size: 2.5rem;
+    padding: 1.5rem 2.5rem;
+  }
+}

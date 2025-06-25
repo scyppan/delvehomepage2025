@@ -1,0 +1,74 @@
+/* slider3-base.css */
+.slider3-header,
+.slider3-subheader {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.slider3-header {
+  bottom: 12%;
+  width: 80%;
+  max-width: 90%;
+  font-size: 1.75rem;
+}
+
+.slider3-subheader {
+  bottom: 5%;
+  width: 80%;
+  max-width: 90%;
+  font-size: 1.125rem;
+}
+
+.slider3-list-container {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 20%;
+  min-width: 180px;
+  padding: 0.5rem;
+  border-radius: 7px;
+  background-color: rgb(92 71 54);
+  border: 1px solid #e8b385;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.slider3-list {
+  margin: 0;
+  padding-left: 1rem;
+  list-style: disc;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.slider3-list li {
+  margin-bottom: 0.5rem;
+}
+.slider3-list li:last-child {
+  margin-bottom: 0;
+}
+
+.slider3-book {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  padding: 0.75rem 1.5rem;
+  background: var(--chi-blue);
+  color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: bolder;
+  font-size: 1.5rem;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.slider3-book:hover {
+  transform: scale(1.05);
+  background-color: #4b5b62;
+}

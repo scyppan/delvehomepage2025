@@ -1,5 +1,6 @@
 const cssfiles = [
   'slider.css',
+
   // slider1 breakpointed styles:
   'slider1/slider1-base.css',
   'slider1/slider1-480.css',
@@ -7,6 +8,7 @@ const cssfiles = [
   'slider1/slider1-1024.css',
   'slider1/slider1-1440.css',
   'slider1/slider1-1920.css',
+
   // slider2 base + breakpoints:
   'slider2/slider2-base.css',
   'slider2/slider2-480.css',
@@ -14,15 +16,25 @@ const cssfiles = [
   'slider2/slider2-1024.css',
   'slider2/slider2-1440.css',
   'slider2/slider2-1920.css',
+
+  // slider3 base + breakpoints:
+  'slider3/slider3-base.css',
+  'slider3/slider3-480.css',
+  'slider3/slider3-768.css',
+  'slider3/slider3-1024.css',
+  'slider3/slider3-1440.css',
+  'slider3/slider3-1920.css',
+
   // the rest of your sliders
-  'slider3.css',
   'slider4.css',
   'slider5.css',
   'slider6.css',
   'slider7.css',
   'slider8.css',
+
   'wordpress.css'
 ];
+
 
 const jsfiles = [
     'wordpress.js',

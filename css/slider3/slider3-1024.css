@@ -1,0 +1,12 @@
+/* slider3-1024.css */
+@media (min-width: 1024px) {
+  .slider3-header {
+    font-size: 2.5rem;
+  }
+  .slider3-subheader {
+    font-size: 1.75rem;
+  }
+  .slider3-book {
+    font-size: 2.25rem;
+  }
+}
