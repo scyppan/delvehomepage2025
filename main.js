@@ -1,7 +1,7 @@
 const cssfiles = [
   'slider.css',
 
-  // slider1 breakpointed styles:
+  // slider1 base + breakpoints
   'slider1/slider1-base.css',
   'slider1/slider1-480.css',
   'slider1/slider1-768.css',
@@ -9,7 +9,7 @@ const cssfiles = [
   'slider1/slider1-1440.css',
   'slider1/slider1-1920.css',
 
-  // slider2 base + breakpoints:
+  // slider2 base + breakpoints
   'slider2/slider2-base.css',
   'slider2/slider2-480.css',
   'slider2/slider2-768.css',
@@ -17,7 +17,7 @@ const cssfiles = [
   'slider2/slider2-1440.css',
   'slider2/slider2-1920.css',
 
-  // slider3 base + breakpoints:
+  // slider3 base + breakpoints
   'slider3/slider3-base.css',
   'slider3/slider3-480.css',
   'slider3/slider3-768.css',
@@ -25,7 +25,7 @@ const cssfiles = [
   'slider3/slider3-1440.css',
   'slider3/slider3-1920.css',
 
-  // slider4 base + breakpoints:
+  // slider4 base + breakpoints
   'slider4/slider4-base.css',
   'slider4/slider4-480.css',
   'slider4/slider4-768.css',
@@ -33,7 +33,7 @@ const cssfiles = [
   'slider4/slider4-1440.css',
   'slider4/slider4-1920.css',
 
-  // slider5 base + breakpoints:
+  // slider5 base + breakpoints
   'slider5/slider5-base.css',
   'slider5/slider5-480.css',
   'slider5/slider5-768.css',
@@ -41,7 +41,7 @@ const cssfiles = [
   'slider5/slider5-1440.css',
   'slider5/slider5-1920.css',
 
-  // slider6 base + breakpoints:
+  // slider6 base + breakpoints
   'slider6/slider6-base.css',
   'slider6/slider6-480.css',
   'slider6/slider6-768.css',
@@ -49,9 +49,21 @@ const cssfiles = [
   'slider6/slider6-1440.css',
   'slider6/slider6-1920.css',
 
-  // the rest of your sliders
-  'slider7.css',
-  'slider8.css',
+  // slider7 base + breakpoints
+  'slider7/slider7-base.css',
+  'slider7/slider7-480.css',
+  'slider7/slider7-768.css',
+  'slider7/slider7-1024.css',
+  'slider7/slider7-1440.css',
+  'slider7/slider7-1920.css',
+
+  // slider8 base + (add breakpoints when ready)
+  'slider8/slider8-base.css',
+  'slider8/slider8-480.css',
+  'slider8/slider8-768.css',
+  'slider8/slider8-1024.css',
+  'slider8/slider8-1440.css',
+  'slider8/slider8-1920.css',
 
   'wordpress.css'
 ];

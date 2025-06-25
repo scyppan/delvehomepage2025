@@ -1,0 +1,26 @@
+/* slider7-480.css */
+@media (min-width: 480px) {
+  .slider7-main-1 {
+    font-size: 0.75rem !important;
+    bottom: 25%;
+  }
+  .slider7-main-2 {
+    font-size: 0.75rem !important;
+    bottom: 12%;
+  }
+  .slider7-lower-left,
+  .slider7-lower-right {
+    font-size: 0.5rem;
+    padding: 0.75rem;
+    bottom: 3%;
+    left: 5%;
+    right: 5%;
+  }
+  .slider7-schedule {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    top: 7%;
+    left: 12%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,29 @@
+/* slider7-1920.css */
+@media (min-width: 1920px) {
+  #slider {
+    max-width: 1600px;
+  }
+  .slider7-main-1 {
+    font-size: 1.75rem !important;
+    bottom: 20%;
+  }
+  .slider7-main-2 {
+    font-size: 1.75rem !important;
+    bottom: 8%;
+  }
+  .slider7-lower-left,
+  .slider7-lower-right {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+  }
+  .slider7-schedule {
+    font-size: 1.75rem;
+    padding: 1.5rem 3rem;
+    top: 7%;
+    left: 12%;
+    transform: translateX(-50%);
+  }
+}
