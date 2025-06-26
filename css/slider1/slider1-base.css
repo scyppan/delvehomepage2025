@@ -1,13 +1,13 @@
 .slider1-title {
   position: absolute;
-  bottom: 1%;
+  bottom: .001%;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.7);
-  padding: 0.75rem 1.5rem;
+  padding: 0.325rem 1.25rem;
   color: #fff;
   font-size: 1rem !important;
-  font-weight: 600;
+  font-weight: bolder;
   text-align: center;
   border-radius: 0.25rem;
   width: 80%;
@@ -17,22 +17,22 @@
 .slider1-schedule,
 .slider1-learn {
   position: absolute;
-  top: 75%;
+  bottom: 22%;
   transform: translateY(-50%);
   background: rgba(218, 41, 28, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  font-weight: 700;
-  font-size: 0.5rem;
+  font-weight: bolder;
+  font-size: .75rem;
   padding: 0.25rem 0.75rem;
   transition: background 0.3s ease, transform 0.3s ease;
   z-index: 2;
 }
 
-.slider1-schedule { left: 5%;  }
-.slider1-learn    { right: 5%; }
+.slider1-schedule { left: 12%;  }
+.slider1-learn    { right: 12%; }
 
 .slider1-schedule:hover,
 .slider1-learn:hover {

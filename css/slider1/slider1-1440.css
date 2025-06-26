@@ -1,7 +1,8 @@
 /* Desktop monitors */
 @media (min-width: 1440px) {
   .slider1-title {
-    font-size: 4rem !important;
+    font-size: 3.5rem !important;
+    padding: .75rem;
   }
   .slider1-schedule,
   .slider1-learn {
@@ -10,9 +11,9 @@
     transform: translateY(-25%);
   }
   .slider1-schedule {
-    left: 10%;
+    left: 8%;
   }
   .slider1-learn {
-    right: 10%;
+    right: 8%;
   }
 }
