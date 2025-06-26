@@ -3,4 +3,9 @@
   #slider {
     max-width: 1600px;
   }
+  .slider2-book,
+  .slider2-team {
+    font-size: 3rem;
+    padding: 1.25rem 3.5rem;
+  }
 }

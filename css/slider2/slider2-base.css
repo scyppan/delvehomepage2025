@@ -15,20 +15,20 @@
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   font-weight: 700;
-  font-size: .5rem;
+  font-size: .875rem;
   transition: background 0.3s ease, transform 0.3s ease;
   z-index: 2;
 }
 
 /* move them higher (15% down) and wider apart (5% from edges) */
 .slider2-book {
-  top: 15%;
-  left: 3%;
+  top: 12%;
+  left: 8%;
 }
 
 .slider2-team {
-  top: 15%;
-  right: 3%;
+  top: 12%;
+  right: 8%;
 }
 
 .slider2-book:hover,
