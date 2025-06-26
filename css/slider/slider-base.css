@@ -1,7 +1,7 @@
 :root {
   --chi-blue: #00A1DE;
   --chi-blue-faded: rgba(0, 161, 222, 0.5);
-  --chi-red:  #DA291C;
+  --chi-red: #DA291C;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 95%;
-  max-width: 1200px;    /* <-- cap it here */
+  max-width: 1200px;
   margin: 23px auto;
   line-height: 1 !important;
 }
@@ -27,8 +27,8 @@ body {
 #slidesContainer {
   width: 100%;
   aspect-ratio: 16/9;
-  height: auto;         /* allow max-height to apply */
-  max-height: 75vh;     /* 40% of the viewport height */
+  height: auto;
+  max-height: 75vh;
   overflow: hidden;
 }
 
@@ -93,10 +93,9 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin: 1rem auto;     /* push it below the slider */
+  margin: 1rem auto;
   width: 95%;
   max-width: 1920px;
-  
 }
 
 .dot {
@@ -118,6 +117,7 @@ body {
   color: var(--chi-red);
 }
 
+/* Slide background images */
 #slide-1 { background-image: url('../img/img1.jpg'); }
 #slide-2 { background-image: url('../img/img2.jpg'); }
 #slide-3 { background-image: url('../img/img3.jpg'); }
@@ -126,4 +126,3 @@ body {
 #slide-6 { background-image: url('../img/img6.jpg'); }
 #slide-7 { background-image: url('../img/img7.jpg'); }
 #slide-8 { background-image: url('../img/img8.jpg'); }
-

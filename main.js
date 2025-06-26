@@ -1,5 +1,5 @@
 const cssfiles = [
-  'slider.css',
+  'slider/slider-base.css',
 
   // slider1 base + breakpoints
   'slider1/slider1-base.css',
