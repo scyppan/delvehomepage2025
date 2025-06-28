@@ -28,9 +28,9 @@
 
 .slider3-list-container {
   position: absolute;
-  top: 3%;
-  left: 3%;
-  width: 28%;
+  top: 1%;
+  left: 1%;
+  width: 33%;
   padding-left: 1.5rem;
   border-radius: 12px;
   background-color: rgba(30, 30, 30, .5);
@@ -43,9 +43,9 @@
 
 .slider3-list {
   margin: 0;
-  padding: .5rem;
+  padding: .325rem;
   list-style: disc;
-  font-size: .5rem !important;
+  font-size: .625rem !important;
 }
 
 .slider3-list li {
