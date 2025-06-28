@@ -13,27 +13,28 @@
 }
 
 .slider3-header {
-  bottom: 17%;
-  width: 80%;
+  bottom: 15%;
+  width: 90%;
   max-width: 90%;
-  font-size: .5rem !important;
+  font-size: .75rem !important;
 }
 
 .slider3-subheader {
   bottom: 3%;
   width: 80%;
   max-width: 90%;
-  font-size: .5rem !important;
+  font-size: .575rem !important;
 }
 
 .slider3-list-container {
   position: absolute;
-  top: 5%;
-  left: 7%;
-  width: 27%;
-  padding-left: 1rem;
-  border-radius: 7px;
-  background-color: rgb(92 71 54);
+  top: 3%;
+  left: 3%;
+  width: 28%;
+  padding-left: 1.5rem;
+  border-radius: 12px;
+  background-color: rgba(30, 30, 30, .5);
+  box-shadow: 0 0 0 1px grey;
   border: 1px solid #e8b385;
   color: #fff;
   font-weight: bolder;
@@ -42,7 +43,7 @@
 
 .slider3-list {
   margin: 0;
-  padding: .75rem;
+  padding: .5rem;
   list-style: disc;
   font-size: .5rem !important;
 }
@@ -56,15 +57,15 @@
 
 .slider3-book {
   position: absolute;
-  top: 15%;
-  right: 15%;
+  top: 13%;
+  right: 12%;
   padding: 0.25rem .5rem;
   background: var(--chi-blue);
   color: #fff;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   font-weight: bolder;
-  font-size: .75rem;
+  font-size: .875rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 .slider3-book:hover {

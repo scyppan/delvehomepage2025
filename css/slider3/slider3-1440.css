@@ -2,25 +2,25 @@
 @media (min-width: 1440px) {
   .slider3-header {
     font-size: 4rem !important;
-    bottom: 13%;
+    bottom: 15%;
   }
   .slider3-subheader {
     font-size: 3rem !important;
     bottom: 7%;
   }
   .slider3-list-container {
-    width: 18%;
+    width: 25%;
     left: 5%;
     top: 8%;
     padding: 1rem;
   }
   .slider3-list li {
-    font-size: 1.75rem !important;
-    padding-left: 2.5rem;
+    font-size: 2.25rem !important;
+    margin-left: 2rem;  
     margin-bottom: 1.75rem;
   }
   .slider3-book {
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     padding: 1.25rem 1.75rem;
   }
 }

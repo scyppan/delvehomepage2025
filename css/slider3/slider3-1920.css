@@ -4,12 +4,12 @@
     max-width: 1600px;
   }
   .slider3-header {
-    font-size: 4.5rem !important;
-    bottom: 12%;
+    font-size: 5rem !important;
+    bottom: 15%;
   }
   .slider3-subheader {
-    font-size: 3.5rem !important;
-    bottom: 6%;
+    font-size: 3.75rem !important;
+    bottom: 8%;
   }
   .slider3-list-container {
     width: 27%;
@@ -18,11 +18,11 @@
     padding: 2rem;
   }
   .slider3-list li {
-    font-size: 2rem !important;
+    font-size: 3rem !important;
     margin-bottom: 2rem;
   }
   .slider3-book {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     padding: 2rem 5rem;
   }
 }
