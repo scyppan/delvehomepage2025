@@ -1,0 +1,17 @@
+/* slider-1024.css */
+@media (min-width: 1024px) {
+  .nav {
+    font-size: 2rem !important;
+    padding: 0.1rem 0.5rem;
+  }
+  .nav.prev {
+    left: 0.7rem;
+  }
+  .nav.next {
+    right: 0.7rem;
+  }
+  .dot {
+    font-size: 3.5rem;
+    margin: 0 3rem;
+  }
+}

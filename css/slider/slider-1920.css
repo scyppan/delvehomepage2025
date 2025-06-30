@@ -1,0 +1,17 @@
+/* slider-1920.css */
+@media (min-width: 1920px) {
+  .nav {
+    font-size: 3.75rem !important;
+    padding: 0.1rem 0.5rem;
+  }
+  .nav.prev {
+    left: 1rem;
+  }
+  .nav.next {
+    right: 1rem;
+  }
+  .dot {
+    font-size: 6rem;
+    margin: 0 7rem;
+  }
+}

@@ -1,0 +1,20 @@
+.nav {
+  font-size: .25rem;         /* increase arrow size */
+  padding: .1rem 0.1rem;        /* more clickable area */
+}
+
+.nav.prev {
+  left: .5rem;              /* move in from the left edge */
+}
+
+.nav.next {
+  right: .5rem;             /* move in from the right edge */
+}
+
+/* DOTS */
+/* size & spacing of the stars */
+.dot {
+  font-size: 1.75rem;         /* make each dot bigger */
+  margin: 0 0.5rem;        /* widen gap between dots */
+}
+
