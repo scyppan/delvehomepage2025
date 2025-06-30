@@ -1,20 +1,21 @@
 @media (min-width: 1920px) {
   .slider8-header {
-    font-size: 4rem !important;
-    padding: 1.75rem 3.5rem;
+    font-size: 4.5rem !important;
+    padding: 1.5rem 3rem;
   }
-
   .slider8-consult {
-    font-size: 3.5rem;
-    padding: 1.25rem 1.75rem;
-    top: 31%;
-    left: 5%;
+    font-size: 4rem;
+    padding: 1rem 1.25rem;
+    top: 30%;
+    left: 6%;
   }
-  .slider8-list-container {
-    top: 22%;
-  }
+.slider8-list-container{
+      top: 21%;
+      right: 7%;
+}
+
   .slider8-list {
-    font-size: 3.25rem;
-    padding: 1.25rem 1.75rem;
+    font-size: 3rem;
+    padding: 0.75rem 1.25rem;
   }
 }

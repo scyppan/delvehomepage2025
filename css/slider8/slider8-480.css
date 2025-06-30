@@ -1,17 +1,23 @@
 /* slider8-480.css */
 @media (min-width: 480px) {
   .slider8-header {
-    font-size: 1rem !important;
-    padding: 1rem 2rem;
+    max-width: 90%;
+    font-size: 1.325rem !important;
+    padding: 0.25rem 1rem;
+    top: 6%;
   }
   .slider8-consult {
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     padding: 0.5rem 1rem;
-    top: 35%;
-    left: 10%;
+    top: 26%;
+    left: 8%;
+  }
+  .slider8-list-container {
+    top: 19%;
+    right: 9%;
+    padding: 0.5rem 1rem !important;
   }
   .slider8-list {
-    font-size: 0.75rem;
-    padding: 0.5rem 1rem;
+    font-size: 1rem;
   }
 }

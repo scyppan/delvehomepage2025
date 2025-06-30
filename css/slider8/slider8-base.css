@@ -3,24 +3,23 @@
 /* Header */
 .slider8-header {
   position: absolute;
-  top: 3%;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  padding: 0.325rem .75rem;
   border-radius: 0.25rem;
-  font-size: .875rem !important;
+  font-size: 1rem !important;
   font-weight: bolder;
   text-align: center;
-  width: 80%;
-  max-width: 90%;
+  width: 975%;
 }
 
 /* Consult button lower left */
 .slider8-consult {
   position: absolute;
-  top: 35%;
+  top: 22%;
   left: 10%;
   padding: .25rem .5rem;
   background: rgba(218, 41, 28, 0.8);
@@ -28,13 +27,13 @@
   text-decoration: none;
   border-radius: 0.25rem;
   font-weight: bolder;
-  font-size: .75rem;
+  font-size: .875rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .slider8-consult:hover {
   background: #fff;
-  transform: scale(1.02);
+  transform: scale(1.01);
   font-weight: bolder;
   text-decoration: none;
 }
@@ -42,22 +41,21 @@
 /* Group list lower right */
 .slider8-list-container {
   position: absolute;
-  top: 32%;
-  right: 8%;
+  top: 19%;
+  right: 12%;
   border-radius: 0.25rem;
   background-color: rgba(243, 225, 195, 0.75);
   border-radius: 7px;
   border: 1px solid #e8b385;
   color: #fff;
   font-weight: bolder;
-  padding: .25rem !important;
+  padding: .25rem .5rem !important;
   
 }
 
 .slider8-list {
-  padding: .25rem .5rem;
   color: #333;
-  font-size: .575rem;
+  font-size: .65rem;
   margin: 0rem !important;
 }
 
