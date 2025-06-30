@@ -2,16 +2,33 @@
 @media (min-width: 1440px) {
   .slider7-main-1,
   .slider7-main-2 {
-    font-size: 1.5rem !important;
-    padding: 1.5rem 1.75rem;
+    padding: 0.875rem 1.25rem;
   }
-  .slider7-lower-left,
+
+  .slider7-main-1 {
+    font-size: 4rem !important;
+    bottom: 24%;
+  }
+  .slider7-main-2 {
+    font-size: 2.75rem !important;
+    bottom: 17%;
+  }
+
+  .slider7-lower-left {
+    font-size: 2rem;
+    bottom: 4%;
+    left: 2%;
+  }
   .slider7-lower-right {
-    font-size: 1.25rem;
-    padding: 1.5rem 1.75rem;
+    font-size: 2rem;
+    bottom: 3%;
+    right: 2%;
   }
+
   .slider7-schedule {
-    font-size: 2.5rem;
-    padding: 1.75rem 2.25rem;
+    font-size: 3rem;
+    padding: 0.75rem 1.25rem;
+    top: 5%;
+    left: 2%;
   }
 }

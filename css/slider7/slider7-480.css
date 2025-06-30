@@ -1,24 +1,35 @@
 /* slider7-480.css */
 @media (min-width: 480px) {
   .slider7-main-1,
-  .slider7-main-2 {
-    font-size: 0.75rem !important;
-    padding: 0.75rem 1rem;
-  }
+  .slider7-main-2{
+  padding: .5rem .75rem;
+}
+  
   .slider7-main-1 {
+    font-size: 1.325rem !important;
     bottom: 24%;
   }
   .slider7-main-2 {
-    bottom: 13%;
-  }
-  .slider7-lower-left,
-  .slider7-lower-right {
-    font-size: 0.6rem;
-    padding: 0.75rem 1rem;
-  }
-  .slider7-schedule {
     font-size: 1rem !important;
-    padding: .25rem .5rem;
-    margin-left: 3%;
+    bottom: 16%;
+  }
+
+  .slider7-lower-left{
+    font-size: 0.8rem;
+    bottom: 5%;
+    left: 1%;
+  }
+
+  .slider7-lower-right{
+    font-size: 0.8rem;
+    bottom: 3%;
+    right: 1%;
+  }
+
+  .slider7-schedule {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    top: 4%;
+    left: 3%;
   }
 }

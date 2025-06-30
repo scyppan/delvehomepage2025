@@ -6,42 +6,40 @@
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  padding: 0.5rem .5rem;
+  padding: 0.325rem .25rem;
   border-radius: 0.25rem;
   text-align: center;
   font-weight: bolder;
-  width: 85%;
-  font-size: .5rem !important;
+  width: 65%;
 }
 
 .slider7-main-1 {
-  bottom: 25%;
-  font-size: .5rem;
+  bottom: 24%;
+  font-size: .85rem !important;
 }
 
 .slider7-main-2 {
   bottom: 14%;
-  font-size: .5rem;
+  font-size: .75rem !important;
 }
 
 .slider7-lower-left,
 .slider7-lower-right {
   position: absolute;
-  
   background: rgba(255, 255, 255, 0.8);
   color: #333;
-  padding: 0.5rem;
+  padding: 0.125rem .35rem;
   border-radius: 0.25rem;
   border-radius: 7px;
   border: 1px solid #e8b385;
   color: #453c3c;
   font-weight: bolder;
-  font-size: .4rem;
+  font-size: .525rem;
 }
 
 .slider7-lower-left {
   left: 1%;
-bottom: 2%;
+bottom: 3%;
 }
 
 .slider7-lower-right {
@@ -51,22 +49,21 @@ bottom: 2%;
 
 .slider7-schedule {
   position: absolute;
-  top: 5%;
-  left: 10%;
-  transform: translateX(-50%);
+  top: 3%;
+  left: 2%;
   padding: .25rem .5rem;
   background: rgba(218, 41, 28, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 0.25rem;
   font-weight: bold;
-  font-size: .5rem;
+  font-size: .75rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .slider7-schedule:hover {
   background: #fff;
-  transform: scale(1.02);
+  transform: scale(1.01);
   font-weight: bolder;
   text-decoration: none;
 }
