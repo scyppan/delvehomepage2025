@@ -4,7 +4,8 @@
   .slider4-podcast,
   .slider4-blog,
   .slider4-journey {
+    left: 60%;
     font-size: 0.85rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem .75rem;
   }
 }

@@ -1,13 +1,11 @@
-/* slider4-1920.css */
+/* slider4-1440.css */
 @media (min-width: 1920px) {
-  #slider {
-    max-width: 1600px;
-  }
-
   .slider4-btn,
   .slider4-podcast,
   .slider4-blog,
   .slider4-journey {
-   margin-left: 5%;
+    font-size: 4rem;
+    left:60%;
+    padding: 1rem 1.25rem;
   }
 }

@@ -142,7 +142,7 @@ function slider4() {
   slide.append(blog)
 
   const insta = document.createElement('a')
-  insta.href = 'https://delvepsych.substack.com/'
+  insta.href = 'https://www.instagram.com/delvepsychchicago'
   insta.target = '_blank'
   insta.rel = 'noopener noreferrer'
   insta.className = 'slider4-btn slider4-insta'
