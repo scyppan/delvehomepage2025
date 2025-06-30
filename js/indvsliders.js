@@ -231,7 +231,7 @@ function slider7() {
   // Centered main text
   const title1 = document.createElement('h1')
   title1.className = 'slider7-main-1'
-  title1.textContent = 'We love love in all its configurations'
+  title1.textContent = 'We love love in all its forms'
   slide.append(title1)
 
   const title2 = document.createElement('h1')
