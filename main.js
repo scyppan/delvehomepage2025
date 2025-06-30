@@ -1,5 +1,11 @@
 const cssfiles = [
+  // code slider base + breakpoints
   'slider/slider-base.css',
+  'slider/slider-480.css',
+  'slider/slider-768.css',
+  'slider/slider-1024.css',
+  'slider/slider-1440.css',
+  'slider/slider-1920.css',
 
   // slider1 base + breakpoints
   'slider1/slider1-base.css',
@@ -63,9 +69,7 @@ const cssfiles = [
   'slider8/slider8-768.css',
   'slider8/slider8-1024.css',
   'slider8/slider8-1440.css',
-  'slider8/slider8-1920.css',
-
-  'wordpress.css'
+  'slider8/slider8-1920.css'
 ];
 
 
