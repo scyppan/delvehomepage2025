@@ -141,12 +141,20 @@ function slider4() {
   blog.textContent = 'We have a blog!'
   slide.append(blog)
 
+  const insta = document.createElement('a')
+  insta.href = 'https://delvepsych.substack.com/'
+  insta.target = '_blank'
+  insta.rel = 'noopener noreferrer'
+  insta.className = 'slider4-btn slider4-blog'
+  insta.textContent = 'Check out our instagram!'
+  slide.append(insta)
+
   const journey = document.createElement('a')
   journey.href = 'https://delvepsych.com/start-your-journey/'
   journey.target = '_blank'
   journey.rel = 'noopener noreferrer'
   journey.className = 'slider4-btn slider4-journey'
-  journey.textContent = 'Start your journey with us'
+  journey.textContent = 'Start your journey with us!'
   slide.append(journey)
 }
 
