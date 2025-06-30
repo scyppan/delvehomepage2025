@@ -193,7 +193,7 @@ function slider5() {
   couplesLink.rel = 'noopener noreferrer'
   couplesLink.title = 'Substack article coming soon'
   couplesLink.className = 'slider5-link slider5-lower-right'
-  couplesLink.textContent = 'Learn about couples therapy'
+  couplesLink.textContent = 'Learn about how couples therapy works'
   slide.append(couplesLink)
 
   const title = document.createElement('h1')
@@ -202,7 +202,6 @@ function slider5() {
   slide.append(title)
 }
 
-// in indvsliders.js
 function slider6() {
   const slide = document.getElementById('slide-6')
   if (!slide) return
@@ -224,7 +223,6 @@ function slider6() {
   slide.append(title)
 }
 
-// indvsliders.js
 function slider7() {
   const slide = document.getElementById('slide-7')
   if (!slide) return
@@ -263,7 +261,6 @@ function slider7() {
   slide.append(btn)
 }
 
-// in indvsliders.js
 function slider8() {
   const slide = document.getElementById('slide-8')
   if (!slide) return
