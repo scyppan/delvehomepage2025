@@ -145,7 +145,7 @@ function slider4() {
   insta.href = 'https://delvepsych.substack.com/'
   insta.target = '_blank'
   insta.rel = 'noopener noreferrer'
-  insta.className = 'slider4-btn slider4-blog'
+  insta.className = 'slider4-btn slider4-insta'
   insta.textContent = 'Check out our instagram!'
   slide.append(insta)
 
