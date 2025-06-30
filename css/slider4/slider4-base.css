@@ -3,37 +3,36 @@
   position: absolute;
   left: 58%;
   /* align left edges */
-  padding: 0.325rem .325rem;
+  padding: 0.25rem .325rem;
   /* less padding */
   background: rgba(218, 41, 28, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  font-weight: 700;
-  font-size: .325rem;
+  font-weight: bolder;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 /* vertical positions */
 .slider4-podcast {
   top: 15%;
-  font-size: .5rem;
+  font-size: .65rem;
 }
 
 .slider4-blog {
   top: 35%;
-  font-size: .5rem;
+  font-size: .65rem;
 }
 
 .slider4-insta {
   top: 55%;
-  font-size: .5rem;
+  font-size: .65rem;
 }
 
 .slider4-journey {
   top: 75%;
-  font-size: .5rem;
+  font-size: .65rem;
 }
 
 /* hover state */

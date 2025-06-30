@@ -1,11 +1,8 @@
 /* slider4-480.css */
 @media (min-width: 480px) {
-  .slider4-btn,
-  .slider4-podcast,
-  .slider4-blog,
-  .slider4-journey {
+  .slider4-btn {
     left: 60%;
     font-size: 0.85rem;
-    padding: 0.5rem .75rem;
+    padding: 0.325rem .75rem;
   }
 }

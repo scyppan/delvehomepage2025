@@ -172,7 +172,7 @@ function slider5() {
   slide.append(ulBtn)
 
   const urBtn = document.createElement('a')
-  urBtn.href = 'https://delvepsych.com/relationships-group/'
+  urBtn.href = 'https://delvepsych.com/dating-and-relationship-group/'
   urBtn.target = '_blank'
   urBtn.rel = 'noopener noreferrer'
   urBtn.className = 'slider5-upper-btn slider5-upper-right'
@@ -180,7 +180,7 @@ function slider5() {
   slide.append(urBtn)
 
   const breakupLink = document.createElement('a')
-  breakupLink.href = 'https://delvepsych.com/support-after-breakup/'
+  breakupLink.href = 'https://open.spotify.com/episode/4nVC6OT9ng7WZ5yIfwT6CI'
   breakupLink.target = '_blank'
   breakupLink.rel = 'noopener noreferrer'
   breakupLink.className = 'slider5-link slider5-lower-left'
@@ -188,11 +188,12 @@ function slider5() {
   slide.append(breakupLink)
 
   const couplesLink = document.createElement('a')
-  couplesLink.href = 'https://delvepsych.com/couples-therapy/'
+  couplesLink.href = 'https://delvepsych.substack.com'
   couplesLink.target = '_blank'
   couplesLink.rel = 'noopener noreferrer'
+  couplesLink.title = 'Substack article coming soon'
   couplesLink.className = 'slider5-link slider5-lower-right'
-  couplesLink.textContent = 'Learn about our couples therapy options'
+  couplesLink.textContent = 'Learn about couples therapy'
   slide.append(couplesLink)
 
   const title = document.createElement('h1')

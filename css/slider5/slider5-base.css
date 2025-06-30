@@ -3,15 +3,13 @@
 /* Upper buttons */
 .slider5-upper-btn {
   position: absolute;
-  top: 3%;
-  padding: 0.25rem .5rem;
+  top: 2%;
+  padding: 0.2rem .25rem;
   background: rgb(255 255 255);
   color: #595050;
   border-radius: 13px;
-  border: 1px solid black;
-  font-weight: bold;
-  font-size: .75rem;
-
+  font-weight: bolder;
+  font-size: .7rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -25,7 +23,7 @@
 
 .slider5-upper-btn:hover {
   background: var(--chi-blue);
-  transform: scale(1.02);
+  transform: scale(1.01);
   text-decoration: none;
   color: #ffffff;
 }
@@ -33,24 +31,23 @@
 /* Bottom “Learn” links */
 .slider5-link {
   position: absolute;
-  bottom: 15%;
-  padding: 0.25rem .5rem;
+  bottom: 10%;
+ padding: 0.2rem .2rem;
   background: rgb(255 255 255);
   color: #595050;
   border-radius: 13px;
-  border: 1px solid black;
-  font-weight: bold;
-  font-size: .5rem;
+  font-weight: bolder;
+  font-size: .66rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .slider5-lower-left {
-  left: 2%;
+  left: 1%;
   margin-bottom: 6%;
 }
 
 .slider5-lower-right {
-  right: 2%;
+  right: 1%;
   margin-bottom: 6%;
 }
 
@@ -72,7 +69,7 @@
   padding: 0.5rem .5rem;
   border-radius: 0.25rem;
   font-weight: bolder;
-  font-size: .75rem !important;
+  font-size: .875rem !important;
   width: 65%;
   max-width: 90%;
   text-align: center;

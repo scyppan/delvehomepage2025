@@ -1,29 +1,31 @@
-/* slider5-1024.css */
+/* slider5-480.css */
 @media (min-width: 1024px) {
   .slider5-upper-btn,
+  .slider5-lower-left,
+  .slider5-lower-right,
   .slider5-link {
-    font-size: 1rem;
-    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    padding: 0.25rem .75rem;
   }
   .slider5-upper-left {
-    left: 4%;
-    top: 6%;
+    left: 1%;
+    top: 2%;
   }
   .slider5-upper-right {
-    right: 4%;
-    top: 6%;
+    right: 1%;
+    top: 2%;
   }
   .slider5-lower-left {
-    left: 6%;
-    bottom: 10%;
+    left: 2%;
+    bottom: 8%;
   }
   .slider5-lower-right {
-    right: 6%;
-    bottom: 10%;
+    right: 2%;
+    bottom: 8%;
   }
   .slider5-header {
-    font-size: 1.5rem !important;
-    padding: 1.25rem 1.75rem;
-    bottom: 4%;
+    font-size: 3rem !important;
+    padding: 0.75rem 1.25rem;
+    bottom: 5%;
   }
 }
