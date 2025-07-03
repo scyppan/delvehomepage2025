@@ -2,7 +2,7 @@
 
 let currentIndex    = 0;
 let autoScrollTimer = null;
-const AUTO_SCROLL_INTERVAL = 7500;  // ← changed to 7.5s
+const AUTO_SCROLL_INTERVAL = 6000;  // ← changed to 7.5s
 let seenSlides      = [];
 
 function showSlide() {
