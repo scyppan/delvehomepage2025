@@ -22,7 +22,7 @@
   background: rgba(218, 41, 28, 0.8);
   color: #fff;
   text-decoration: none;
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   font-weight: bolder;
   font-size: .75rem;
@@ -38,6 +38,7 @@
 .slider1-learn:hover {
   text-decoration: none;
   font-weight: bold;
-  background: rgb(202, 42, 31);
+  background:#fff;
+  color: var(--chi-blue);
   transform: scale(1.1);
 }

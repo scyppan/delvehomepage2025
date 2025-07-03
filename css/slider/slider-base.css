@@ -13,6 +13,7 @@
 body {
   overflow-x: hidden;
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 #slider {
@@ -75,8 +76,8 @@ body {
   background: var(--chi-blue);
   border: none;
   color: #fff;
-  font-size: .5rem;
-  padding: 0.5rem .25rem;
+  font-size: 1rem !important;
+  padding: 0.01rem .35rem !important;
   cursor: pointer;
   z-index: 3;
 }

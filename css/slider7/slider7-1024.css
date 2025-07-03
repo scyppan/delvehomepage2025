@@ -14,13 +14,20 @@
     bottom: 15%;
   }
 
+.slider7-lower-left,
+.slider7-lower-right
+{
+     font-size: 1.75rem;
+      padding: .75rem !important;
+}
+
   .slider7-lower-left {
-    font-size: 1.75rem;
+ 
     bottom: 4.75%;
     left: 2%;
   }
   .slider7-lower-right {
-    font-size: 1.75rem;
+ 
     bottom: 3%;
     right: 2%;
   }

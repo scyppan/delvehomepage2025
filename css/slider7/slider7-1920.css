@@ -14,15 +14,22 @@
     bottom: 17%;
   }
 
+.slider7-lower-left,
+.slider7-lower-right
+{
+     font-size: 3rem;
+      padding: 1.25rem !important;
+}
+
   .slider7-lower-left {
-    font-size: 3rem;
+    
     bottom: 4.5%;
-    left: 2%;
+    left: 1%;
   }
   .slider7-lower-right {
-    font-size: 3rem;
+    
     bottom: 3%;
-    right: 2%;
+    right: 1%;
   }
 
   .slider7-schedule {

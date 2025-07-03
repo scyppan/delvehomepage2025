@@ -1,6 +1,6 @@
 .nav {
-  font-size: .25rem;         /* increase arrow size */
-  padding: .1rem 0.1rem;        /* more clickable area */
+  font-size: 1rem !important;         /* increase arrow size */
+  padding: .25rem .85rem !important;        /* more clickable area */
 }
 
 .nav.prev {
@@ -14,7 +14,7 @@
 /* DOTS */
 /* size & spacing of the stars */
 .dot {
-  font-size: 1.75rem;         /* make each dot bigger */
-  margin: 0 0.5rem;        /* widen gap between dots */
+  font-size: 3rem;         /* make each dot bigger */
+  margin: 0 1.5rem;        /* widen gap between dots */
 }
 

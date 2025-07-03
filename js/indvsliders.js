@@ -188,10 +188,9 @@ function slider5() {
   slide.append(breakupLink)
 
   const couplesLink = document.createElement('a')
-  couplesLink.href = 'https://delvepsych.substack.com'
+  couplesLink.href = 'https://open.substack.com/pub/delvepsych/p/so-youre-considering-couples-therapy'
   couplesLink.target = '_blank'
   couplesLink.rel = 'noopener noreferrer'
-  couplesLink.title = 'Substack article coming soon'
   couplesLink.className = 'slider5-link slider5-lower-right'
   couplesLink.textContent = 'Learn about how couples therapy works'
   slide.append(couplesLink)
