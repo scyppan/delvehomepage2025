@@ -122,8 +122,7 @@ async function initapp(baseUrl, version) {
     buildsection();
     buildslidersection();
     buildSlides();
-    slider1();
-    showSlide();
+    initSliderBehavior();
 }
 
 window.initapp = initapp;

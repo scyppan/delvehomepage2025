@@ -1,32 +1,50 @@
 // sliderbehavior.js
+
 let currentIndex = 0;
-const AUTO_SCROLL_INTERVAL = 5000;
 let autoScrollTimer = null;
+const AUTO_SCROLL_INTERVAL = 5000;
 
-// grab these once (rename so you don’t collide)
-const _slides = document.getElementById('slidesContainer');
-const _dots   = document.getElementById('dotsContainer');
-const prevBtn = document.querySelector('.nav.prev');
-const nextBtn = document.querySelector('.nav.next');
-
+// core carousel logic, always re-fetch containers by ID
 function showSlide() {
-  const slides = _slides.querySelectorAll('.slide');
-  // …same as before…
+  const slidesContainer = document.getElementById('slidesContainer');
+  const dotsContainer   = document.getElementById('dotsContainer');
+  if (!slidesContainer || !dotsContainer) return;
+
+  const slides = slidesContainer.querySelectorAll('.slide');
+  const total  = slides.length;
+  if (!total) return;
+
+  // wrap index
+  if (currentIndex < 0)       currentIndex = total - 1;
+  if (currentIndex >= total)  currentIndex = 0;
+
+  const prevIndex = (currentIndex - 1 + total) % total;
+  const nextIndex = (currentIndex + 1) % total;
+
+  slides.forEach((slide, i) => {
+    slide.classList.remove('last','current','next');
+    if      (i === prevIndex)    slide.classList.add('last');
+    else if (i === currentIndex) slide.classList.add('current');
+    else if (i === nextIndex)    slide.classList.add('next');
+  });
+
+  const dots = dotsContainer.querySelectorAll('.dot');
+  dots.forEach((dot,i) => dot.classList.toggle('active', i === currentIndex));
 }
-window.showSlide = showSlide;
 
 function nextSlide() {
-  currentIndex = (currentIndex + 1) % _slides.querySelectorAll('.slide').length;
+  const slidesContainer = document.getElementById('slidesContainer');
+  const total = slidesContainer.querySelectorAll('.slide').length;
+  currentIndex = (currentIndex + 1) % total;
   showSlide();
 }
-window.nextSlide = nextSlide;
 
 function prevSlide() {
-  const total = _slides.querySelectorAll('.slide').length;
+  const slidesContainer = document.getElementById('slidesContainer');
+  const total = slidesContainer.querySelectorAll('.slide').length;
   currentIndex = (currentIndex - 1 + total) % total;
   showSlide();
 }
-window.prevSlide = prevSlide;
 
 function stopAutoScroll() {
   if (autoScrollTimer) {
@@ -35,23 +53,37 @@ function stopAutoScroll() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+// this must be called only once the slider HTML & dots exist
+function initSliderBehavior() {
+  // 1) initial paint
   showSlide();
+
+  // 2) start auto-scroll
   autoScrollTimer = setInterval(nextSlide, AUTO_SCROLL_INTERVAL);
 
-  _slides.addEventListener('mouseenter',  stopAutoScroll);
-  _slides.addEventListener('mouseleave', () => {
+  // 3) grab references now that markup is in place
+  const slidesContainer = document.getElementById('slidesContainer');
+  const dotsContainer   = document.getElementById('dotsContainer');
+  const prevBtn         = document.querySelector('.nav.prev');
+  const nextBtn         = document.querySelector('.nav.next');
+
+  // 4) pause on hover
+  slidesContainer.addEventListener('mouseenter', stopAutoScroll);
+  slidesContainer.addEventListener('mouseleave', () => {
     if (!autoScrollTimer) autoScrollTimer = setInterval(nextSlide, AUTO_SCROLL_INTERVAL);
   });
 
+  // 5) stop scrolling if user clicks nav
   prevBtn.addEventListener('click', () => { stopAutoScroll(); prevSlide(); });
   nextBtn.addEventListener('click', () => { stopAutoScroll(); nextSlide(); });
 
-  _dots.addEventListener('click', e => {
+  // 6) stop scrolling if user clicks a dot
+  dotsContainer.addEventListener('click', e => {
     if (e.target.classList.contains('dot')) {
       stopAutoScroll();
-      currentIndex = Array.from(_dots.querySelectorAll('.dot')).indexOf(e.target);
+      const allDots = Array.from(dotsContainer.querySelectorAll('.dot'));
+      currentIndex = allDots.indexOf(e.target);
       showSlide();
     }
   });
-});
+}
